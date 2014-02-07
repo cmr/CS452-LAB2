@@ -1,0 +1,11 @@
+1. glCreateShader - create a new, empty shader object
+2. glShaderSource - associate program's source code with a shader object
+3. glCompileShader - compile the program
+4. (optional) Do any error checking with the info logs
+
+Repeat the above for the vertex and fragment shaders
+
+1. glCreateProgram - create a new, empty program object
+2. glAttachShader - call this on all of the shaders to associate them with the program
+3. glLinkProgram - combine all of the shaders into a usable program
+4. (optional) Do any error checking with the info logs
